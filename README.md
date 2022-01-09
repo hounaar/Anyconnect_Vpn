@@ -9,29 +9,7 @@ First you have to enable a executable code to the install file named vpn_install
 If you want to know more about the `chmod` run this script 
 `chmod --help`
 the result will be like this :
-  `Usage: chmod [OPTION]... MODE[,MODE]... FILE...
-  or:  chmod [OPTION]... OCTAL-MODE FILE...
-  or:  chmod [OPTION]... --reference=RFILE FILE...
-Change the mode of each FILE to MODE.
-With --reference, change the mode of each FILE to that of RFILE.
-
-  -c, --changes          like verbose but report only when a change is made
-  -f, --silent, --quiet  suppress most error messages
-  -v, --verbose          output a diagnostic for every file processed
-      --no-preserve-root  do not treat '/' specially (the default)
-      --preserve-root    fail to operate recursively on '/'
-      --reference=RFILE  use RFILE's mode instead of MODE values
-  -R, --recursive        change files and directories recursively
-      --help     display this help and exit
-      --version  output version information and exit
-
-Each MODE is of the form '[ugoa]*([-+=]([rwxXst]*|[ugo]))+|[-+=][0-7]+'.
-
-GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
-Report any translation bugs to <https://translationproject.org/team/>
-Full documentation <https://www.gnu.org/software/coreutils/chmod>
-or available locally via: info '(coreutils) chmod invocation'
-`
+ ![alt text](https://hounaar.com/github/anyconnect/main.png)
 The code above will set a executable bit to the file. Then we have to install that.
 `sudo vpn_install.sh`
 after that your anyconnect vpn has been installed.

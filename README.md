@@ -22,7 +22,7 @@ the result will be like this :
  
 The code above will set a executable bit to the file. Then we have to install that.
 ```
-sudo vpn_install.sh
+sudo ./vpn_install.sh
 ```
 after that your anyconnect vpn has been installed.
 ## Uninstall
@@ -36,7 +36,7 @@ chmod a+x uninstall vpn_uninstall.sh
 Now is the time to run the following script :
 
 ```
-sudo vpn_uninstall.sh
+sudo ./vpn_uninstall.sh
 ```
 
 Thats that simple to install anyconnect but pay attention that :
